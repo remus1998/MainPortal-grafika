@@ -16,17 +16,24 @@ a {
   color: black;
   font-weight: 800;
   font-size: 30px;
+  text-shadow: 2px 2px 3px lightgray;
 }
 #headerdiv {
   width: 100%;
   background-color: white;
-  height: 30px;
+  height: 50px;
   background-color: #b8c6d9;
+  border-radius: 0 0 10px 10px;
+}
+#left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 #headerdiv #right {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 10px;
+  top: 10px;
 }
 #contentContainer {
   width: 99%;
@@ -90,7 +97,7 @@ svg:hover {
   position: relative;
   top: -135px;
   left: 165px;
-  color: green;
+  color: red;
 }
 #box4 a {
   position: relative;
@@ -103,4 +110,9 @@ svg:hover {
   top: 110px;
   left: 115px;
   color: skyblue;
+}
+#box6 a {
+  position: relative;
+  top: 110px;
+  left: 155px;
 }
