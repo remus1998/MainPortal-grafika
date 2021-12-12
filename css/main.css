@@ -47,7 +47,7 @@ a {
   margin-right: 25px;
   height: 240px;
   border-radius: 5px;
-  box-shadow: 5px 5px 5px lightgray;
+  box-shadow: 8px 8px 8px lightgray;
 }
 .item img {
   width: 100%;
@@ -91,4 +91,16 @@ svg:hover {
   top: -135px;
   left: 165px;
   color: green;
+}
+#box4 a {
+  position: relative;
+  top: -135px;
+  left: 165px;
+  color: skyblue;
+}
+#box5 a {
+  position: relative;
+  top: 110px;
+  left: 115px;
+  color: skyblue;
 }
